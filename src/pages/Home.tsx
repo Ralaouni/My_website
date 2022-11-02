@@ -32,7 +32,7 @@ function Home () {
     const goToBottom = () => {
         allowScroll()
         window.scrollTo({
-            top:920 ,
+            top: 930 ,
             behavior: 'smooth',
         });
         setTimeout(() => {
