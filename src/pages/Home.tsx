@@ -5,6 +5,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { useScrollBlock } from '../Component/scroll_function/useScrollBlock'
 import Pdf from '../Documents/GaetanKasCV.pdf'
 
+
 function Home () {
     
     const [blockScroll, allowScroll] = useScrollBlock();

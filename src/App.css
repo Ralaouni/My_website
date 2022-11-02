@@ -160,7 +160,7 @@ body {
 #Home #About_me #About_me_div .writing_div .background:hover .p2 {
   opacity: 1;
   width: 70%;
-  height: 130px;
+  height: 200px;
   animation-fill-mode: forwards;
   transition-duration: 2s;
   transition-delay: 4s;
@@ -203,7 +203,6 @@ body {
   border-right: solid 1px black;
 }
 #Home #About_me #CV_div #CV {
-  font-size: 14px;
   width: 80px;
   height: 30px;
   position: relative;
@@ -239,6 +238,7 @@ body {
 #Home #About_me .bottom_button_div .bottom_button .arrow_down_icon {
   position: relative;
   top: 15px;
+  left: 40px;
   transition: all 0.5s;
 }
 #Home #About_me .bottom_button_div .bottom_button:hover {
@@ -285,6 +285,7 @@ body {
 #Home #My_Projects .up_button_div .up_button .arrow_down_icon {
   position: relative;
   bottom: 15px;
+  left: 40px;
   transition: all 0.5s;
 }
 #Home #My_Projects .up_button_div .up_button:hover {
@@ -467,6 +468,24 @@ body {
 #Home footer p a:hover {
   color: rgb(249, 179, 48);
   text-decoration: none;
+}
+
+@media screen and (max-width: 1184px) {
+  h1 {
+    font-size: 24px;
+  }
+  #CV_div #CV {
+    font-size: 12px;
+  }
+  #About_me_div {
+    font-size: 15px;
+  }
+  #About_me_div .writing_div .background:hover .p2 {
+    height: 1000px;
+  }
+  #About_me_div p {
+    font-size: 13px;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */
