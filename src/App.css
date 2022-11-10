@@ -88,7 +88,6 @@ body {
   height: 0;
 }
 #Home #About_me #About_me_div .writing_div .background span {
-  text-decoration: underline dotted;
   transition: all 1s;
   animation-fill-mode: forwards;
 }
@@ -470,6 +469,11 @@ body {
   text-decoration: none;
 }
 
+@supports (-moz-appearance: none) {
+  .arrow_down_icon {
+    margin-right: 80px;
+  }
+}
 @media screen and (max-width: 1184px) {
   h1 {
     font-size: 24px;

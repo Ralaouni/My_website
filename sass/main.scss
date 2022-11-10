@@ -115,7 +115,6 @@ body{
                     top: 55px;
                     height: 0;
                     span{
-                        text-decoration: underline dotted;
                         transition: all 1s;
                         animation-fill-mode: forwards;
                     }
@@ -291,6 +290,7 @@ body{
             }
         }
     }
+
 
 
 
@@ -477,6 +477,13 @@ body{
     }
     
 }
+
+@supports (-moz-appearance:none) {
+    .arrow_down_icon{
+        margin-right: 80px;
+    }
+}
+
 
 @media screen and (max-width: 1184px) {
 
