@@ -12,9 +12,12 @@ function Home() {
 
     blockScroll()
 
+
+
     const onClickCV = () => {
         window.open(Pdf);
     }
+
 
     const mountedStyle = {
         animation: "inAnimation 300ms ease-in",
@@ -32,7 +35,8 @@ function Home() {
     const goToBottom = () => {
         allowScroll()
         window.scrollTo({
-            top: 930,
+            top: window.innerHeight,
+            left:0,
             behavior: 'smooth',
         });
         setTimeout(() => {

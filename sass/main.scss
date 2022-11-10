@@ -295,6 +295,7 @@ body{
 
 
     #Second_screen{
+        position: relative;
         background: url(../public/background_black2.jpg);
         background-size: cover;
         background-position: center;
@@ -417,8 +418,9 @@ body{
     footer{
         background-color: rgb(37, 37, 37);
         padding-top: 35px;
+        padding-bottom: 10px;
         position: absolute;
-        top: 188vh;
+        bottom: 2px;
         left: 0; 
         right: 0; 
 
@@ -447,8 +449,7 @@ body{
             width: 40px;
             height: 30px;
             position: absolute;
-            top: 33%;
-            left: 60%;
+            top: 30%;
             background-color: #0072b1;
             border: none;
             border-radius: 2px;
